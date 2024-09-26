@@ -1,0 +1,28 @@
+#skaitsP{
+    display:block;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#vadibasPogasP{
+    text-align: center;
+}
+.buttons
+    {
+        padding: 30px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px; /* Noapaļoti stūri */
+        transition: background-color 0.3s ease; /* Gluda pāreja */
+    }
+    .buttons:hover {
+        background-color: #dbb1e4; /* Tumšāka zaļa */
+    }
+
+    /* Efekts, kad poga ir nospiesta */
+    .buttons:active {
+        background-color: #ff00c8;
+    }

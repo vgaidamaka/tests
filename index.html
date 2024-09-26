@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 10em;        
+            font-family: Verdana, Geneva, Tahoma, sans-serif;    
         }
     </style>
 </head>
@@ -16,9 +15,9 @@
     <div id="skaits"><label>0</label></div>
     <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Vadības pogas</h1>
     <div id="vadibasPogas">
-        <button id="plusViens">+1</button>
-        <button id="nulle">0</button>
-        <button id="minusViens">-1</button>
+        <button id="plusViens" class="buttons">+1</button>
+        <button id="nulle" class="buttons" onclick="anulet()">0</button>
+        <button id="minusViens" class="buttons" onclick="minusViens()">-1</button>
     </div>
     <script src="funkcijas.js"></script>
 </body>
